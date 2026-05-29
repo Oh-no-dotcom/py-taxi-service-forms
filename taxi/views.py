@@ -4,7 +4,6 @@ from django.urls import reverse_lazy
 from django.views import generic
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-import taxi
 from .models import Driver, Car, Manufacturer
 
 
